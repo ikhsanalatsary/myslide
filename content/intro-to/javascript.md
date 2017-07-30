@@ -168,11 +168,37 @@ ___
 
 ### Execution Context (Global)
 
-#### Provide us
-
 * Global Object
 * `this`
+
+<p class="fragment fade-up">
+  <img src="/intro-to/execution-context.jpeg" alt=" execution context"/>
+</p>
 
 ---
 
 # Let's start code!
+
+---
+
+# So...
+
+---
+
+## Global Object adalah `Window`
+
+Global Object(`window`) sama dengan `this`
+
+<p class="fragment fade-up">
+  <img src="/intro-to/execution-context-equal.jpeg" alt="execution context equal" />
+</p>
+
+---
+
+## Global
+
+- **Not inside a `function`**
+
+---
+
+![execution context final](/intro-to/execution-context-final.jpeg)
