@@ -77,9 +77,9 @@ JavaScript Bukan Java. namun sintaks javascipt mirip java dalam beberapa case te
 
 ___
 
-### SEBUAH PROGRAM YANG MEMBACA KODE KALIAN DAN TAHU BAHWA KODE KALIAN BENAR ATAU SALAH
+### SEBUAH PROGRAM YANG MEMBACA KODE KITA DAN TAHU BAHWA KODE KITA BENAR ATAU SALAH
 
-<p class="fragment fade-up">Kode kalian bukanlah sihir/sulap. Orang lain yang membuat program tersebut diterjemahkan untuk berkomunikasi ke komputer.</p>
+<p class="fragment fade-up">Kode kita bukanlah sihir/sulap. Orang lain yang membuat program tersebut diterjemahkan untuk berkomunikasi ke komputer.</p>
 
 ---
 
@@ -202,3 +202,138 @@ Global Object(`window`) sama dengan `this`
 ---
 
 ![execution context final](/intro-to/execution-context-final.jpeg)
+
+---
+
+## Creation and Hoisting
+
+___
+
+![Creation and Hoisting](/intro-to/creation-hoisting.jpeg)
+
+---
+
+## Third Conceptual Aside:
+## JavaScript and `undefined`
+
+___
+
+![JavaScript and undefined](/intro-to/javascript-undefined.jpeg)
+
+---
+
+## The Execution Context - Code Execution
+
+___
+
+![JavaScript and undefined](/intro-to/code-execution.jpeg)
+
+---
+
+## Fourth Conceptual Aside
+### Single Threaded
+### Syncronous Execution
+
+___
+
+## Single Threaded:
+### One Command at a time
+
+<p class="fragment fade-up">
+  Under the hood of the browser, maybe not
+</p>
+
+___
+
+## Syncronous:
+### One at a time
+
+---
+
+## Fifth Conceptul Aside
+### Types And JavaScript
+
+___
+
+## Dynamic Typing:
+### You don't tell the engine what type of data a variable holds, it figures it out while your code is running
+
+<p class="fragment fade-up">
+  Variables can hold different types of values because it's all figured out during execution
+</p>
+
+___
+
+## Static Typing
+
+```java
+  bool isNew = 'hello'; // an error
+```
+
+## Dynamic Typing
+
+```javascript
+  var isNew = true; // no errors
+  isNew = 'yup!';
+  isNew = 1;
+```
+
+---
+
+## Primitive Type:
+### A Type of data that represents a single value
+
+<p class="fragment fade-up">
+  That is, not an object
+</p>
+
+---
+
+## Undefined
+
+<p class="fragment fade-up">
+  `undefined` represents lack of existence
+  (you shouldn't set a variable to this)
+</p>
+
+---
+
+## Null
+
+<p class="fragment fade-up">
+  `null` represents lack of existence
+  (you can set a variable to this)
+</p>
+
+---
+
+## Boolean
+
+<p class="fragment fade-up">
+  `boolean` is true or false
+</p>
+
+---
+
+## Number
+
+<p class="fragment fade-up">
+  *Floating point* number (there's always some decimals). Unlike other programming languages, there's only one `number` type. and it can make math weird.
+</p>
+
+---
+
+## String
+
+<p class="fragment fade-up">
+  a sequence of characters
+  (both '' and "" can be used)
+</p>
+
+---
+
+## Symbol
+
+<p class="fragment fade-up">
+  Unique type. Used in ES6 (the next version of JavaScript)
+</p>
