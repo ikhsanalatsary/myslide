@@ -337,3 +337,88 @@ ___
 <p class="fragment fade-up">
   Unique type. Used in ES6 (the next version of JavaScript)
 </p>
+
+---
+
+## Conceptual Aside:
+### Operators
+
+---
+
+## Operator:
+### A Special Function That is Syntactically (Written) Differently
+
+<p class="fragment fade-up">
+  Generally, Operators take two parameters and return one result
+</p>
+
+---
+
+## Conceptual Aside:
+### Coercion
+
+---
+
+## Coercion
+### Converting a value from one type to another
+
+<p class="fragment fade-up">
+  This Happens quite often in JavaScript because it's dynamically typed.
+</p>
+
+---
+
+## Framework Aside
+
+let's go to editor
+
+---
+
+## Default Value
+
+let's code
+
+---
+
+## Operator Precedence And Associativity
+
+---
+
+## Operator Precedence:
+### Which Operator function gets called first
+
+<p class="fragment fade-up">
+  Functions are called in order of precedence (Higher precedence wins)
+</p>
+
+---
+
+## Associativity:
+### What Order Operator Functions Get Called In:
+### Left-To-Right or Right-to-left
+
+<p class="fragment fade-up">
+  When functions have the same precedence
+</p>
+
+---
+
+## Comparison Operators
+
+let's code
+
+---
+
+## Objects And Functions
+
+---
+
+## Object And The Dots
+
+___
+
+![Objects and the dots](/intro-to/objects-dots.jpeg)
+
+___
+
+![Objects and the dots in memory](/intro-to/objects-dots-memory.jpeg)
