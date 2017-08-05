@@ -250,6 +250,36 @@ ___
 
 ---
 
+## Function Invocation
+## And
+## The Execution Context
+
+---
+
+## Invocation:
+### Running A Function
+
+<p class="fragment fade-up">
+  In JavaScript, by using parenthesis `()`
+</p>
+
+---
+
+## Execution Stack
+
+![Invocation1](/intro-to/invocation1.gif)
+
+
+---
+
+## Function, Context, and Variable Environment
+
+---
+
+## Scope Chain
+
+---
+
 ## Fifth Conceptul Aside
 ### Types And JavaScript
 
@@ -422,3 +452,5 @@ ___
 ___
 
 ![Objects and the dots in memory](/intro-to/objects-dots-memory.jpeg)
+
+---
