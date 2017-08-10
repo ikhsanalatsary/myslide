@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://ikhsanalatsary.github.io/mastering-js-jquery"
 languageCode = "en-us"
 title = "Mastering Javascripit: Jquery"
 theme = "docdock"
