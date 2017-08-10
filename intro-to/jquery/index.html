@@ -1,0 +1,375 @@
+
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/css/reveal.css">
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/css/theme/league.css" id="theme">
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/lib/css/zenburn.css">
+
+	<div class="reveal">
+	<div class="slides">
+	<section data-markdown
+	         data-separator="^---"
+		 data-separator-vertical="^___"
+		 data-separator-notes="^Note:"
+		data-charset="utf8">
+	## Apa itu JQuery?
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Kumpulan `functions` JavaScript (Library), yang memudahkan dan dapat digunakan berulang-ulang.
+&lt;/p&gt;
+
+---
+
+## Apa yang bisa dilakukan JQuery?
+
+&lt;ul&gt;
+  &lt;li class=&#34;fragment fade-up&#34;&gt; Akses element pada dokumen HTML
+  &lt;li class=&#34;fragment fade-up&#34;&gt; Mengubah Document HTML pada Halaman web
+  &lt;li class=&#34;fragment fade-up&#34;&gt; Menanggapi Tindakan Yang dilakukan oleh pengguna
+  &lt;li class=&#34;fragment fade-up&#34;&gt; Animasi
+  &lt;li class=&#34;fragment fade-up&#34;&gt; Bisa berkomunikasi dengan server
+&lt;/ul&gt;
+
+---
+
+## Kenapa Harus JQUERY?
+
+&lt;h3 class=&#34;fragment fade-up&#34;&gt;
+  &#34;Write Less, Do More&#34;
+&lt;/h3&gt;
+
+---
+
+## Browser Compatibility
+- Chrome
+- Safari
+- Firefox Mozila
+- IE
+
+---
+
+## More...
+
+- Dari pemula menjadi pro
+  * Mudah digunakan dan dipahami
+  * walaupun pemula, bisa membuat website dinamis level profesional
+- Serba cepat
+  * 5 baris kode `jQuery` vs 30 baris kode vanilla `JavaScript`
+  * Tidak ada masalah dengan kompatibel browser yang berbeda
+  * Banyak Plugin bertebaran (Open Source)
+
+---
+
+## Using JQUERY
+
+- Akses element (di jquery disebut Selectors)
+  * dengan cara akses elemen html
+  * dengan cara akses elemen dengan ID(Unique)
+  * dengan cara akses elemen dengan nama kelas
+
+___
+
+### CSS
+
+```css
+  /* paragraph element*/
+  p { ... }
+
+  /* ID */
+  #container { ... }
+
+  /* class name */
+  .nama-kelas { ... }
+
+```
+
+### jQuery
+
+```javascript
+/* paragraph element*/
+$(&#39;p&#39;);
+
+/* ID */
+$(&#39;#container&#39;);
+
+/* class name */
+$(&#39;.nama-kelas&#39;);
+```
+
+---
+
+## Conceptual Aside
+
+- The DOM
+- traversing the DOM
+- Working with the DOM
+- Listening to DOM events
+- Styling
+- Introduction to Ajax Basic
+- Ajax with form
+- Utility methods
+- JQuery plugin
+- Working with promises
+
+---
+
+## Apa itu DOM
+
+---
+
+## Document Object Model:
+### The DOM model represents a document with a logical tree.
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+&lt;/p&gt;
+
+---
+
+### modelling HTML, SVG, or XML documents as objects is not part of the JavaScript language
+
+---
+
+## Traversing The DOM
+
+---
+
+## Searching The DOM
+
+- Descendant:
+  * mengakses turunan selektor(parent selektor)
+  * mengakses turunan langsung dari selektor (hirarki)
+  * mengakses lebih dari satu selector
+  * Pseudo classes CSS (filter)
+
+___
+
+### Descendant
+
+#### HTLML
+
+```html
+  &lt;article&gt;
+    &lt;h1&gt;Cara menggunakan Jquery&lt;/h1&gt;
+    &lt;ul id=&#34;parent&#34;&gt;
+      &lt;li&gt;cari selektor&lt;/li&gt;
+      &lt;li&gt;tambahkan kecap&lt;/li&gt;
+      &lt;li class=&#34;ketiga&#34;&gt;sajikan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/article&gt;
+```
+
+#### Jquery
+
+```javascript
+  $(&#39;#parent li&#39;)
+```
+
+___
+
+### Descendant (direct children)
+
+#### HTLML
+
+```html
+  &lt;article&gt;
+    &lt;h1&gt;Cara menggunakan Jquery&lt;/h1&gt;
+    &lt;ul id=&#34;parent&#34;&gt;
+      &lt;li&gt;cari selektor&lt;/li&gt;
+      &lt;li&gt;
+        &lt;ul id=&#34;other&#34;&gt;
+          &lt;li&gt;tambahkan kecap&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;ketiga&#34;&gt;sajikan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/article&gt;
+```
+
+#### Jquery
+
+```javascript
+  $(&#39;#parent &gt; li&#39;)
+```
+
+___
+
+### Descendant (select multiple selector)
+
+#### HTLML
+
+```html
+  &lt;article&gt;
+    &lt;h1&gt;Cara menggunakan Jquery&lt;/h1&gt;
+    &lt;ul id=&#34;parent&#34;&gt;
+      &lt;!-- list ke #0 --&gt;
+      &lt;li&gt;cari selektor&lt;/li&gt;
+      &lt;!-- list ke #1 --&gt;
+      &lt;li&gt;tambahkan kecap&lt;/li&gt;
+      &lt;!-- list ke #2 --&gt;
+      &lt;li class=&#34;ketiga&#34;&gt;sajikan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/article&gt;
+```
+
+#### Jquery
+
+```javascript
+  $(&#39;.ketiga, #other&#39;)
+```
+
+___
+
+### Descendant (pseudo classes CSS)
+
+#### HTLML
+
+```html
+  &lt;article&gt;
+    &lt;h1&gt;Cara menggunakan Jquery&lt;/h1&gt;
+    &lt;ul id=&#34;parent&#34;&gt;
+      &lt;li&gt;cari selektor&lt;/li&gt;
+      &lt;li&gt;
+        &lt;ul id=&#34;other&#34;&gt;
+          &lt;li&gt;tambahkan kecap&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li class=&#34;ketiga&#34;&gt;sajikan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/article&gt;
+```
+
+#### Jquery
+
+```javascript
+  $(&#39;#parent li:first&#39;) // list pertama
+  $(&#39;#parent li:last&#39;) // list terakhir
+  $(&#39;#parent li:odd&#39;) // list ganjil
+  $(&#39;#parent li:even&#39;) // list genap
+```
+
+---
+
+## Traversing It
+
+---
+
+#### HTLML
+
+```html
+  &lt;article&gt;
+    &lt;h1&gt;Cara menggunakan Jquery&lt;/h1&gt;
+    &lt;ul id=&#34;parent&#34;&gt;
+      &lt;li&gt;cari selektor&lt;/li&gt;
+      &lt;li&gt;tambahkan kecap&lt;/li&gt;
+      &lt;li class=&#34;ketiga&#34;&gt;sajikan&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/article&gt;
+```
+
+#### Jquery
+
+```javascript
+  $(&#39;#parent&#39;).find(&#39;li&#39;) // ini disebut traversal
+```
+
+---
+
+#### pertama
+
+```javascript
+  $(&#39;li:first&#39;)
+```
+
+#### kedua
+
+```javascript
+  $(&#39;li&#39;).first();
+```
+
+Hasil tetap sama
+
+---
+
+## lebih cepat dibanding cara pertama!!
+
+---
+
+## Walking the DOM
+
+Bagaimana jika kita mencoba mendapatkan list yang ditengah (antara list pertama dan terakhir)?
+
+### Traversing
+
+```javascript
+  $(&#39;li&#39;).first().next();
+```
+
+ini di sebut **method chaining**
+
+```javascript
+  $(&#39;li&#39;).first().next().prev(); // contoh more chaining
+```
+
+hasilnya kembali lagi ke sebelumnya
+
+---
+
+## Walking up the DOM
+
+Bagaimana jika kita mencoba mendapatkan parent selectornya?
+
+```javascript
+  $(&#39;li&#39;).first().parent();
+```
+
+```javascript
+  $(&#39;li&#39;).first().parent();
+```
+
+---
+
+## Walking down the DOM
+
+### Traversing down
+
+```javascript
+  $(&#39;#parent&#39;).children(&#39;li&#39;);
+```
+
+same as
+
+```javascript
+  $(&#39;#parent &gt; li&#39;);
+```
+
+	</section>
+	</div>
+	</div>
+	<script src="/mastering-js-jquery/revealjs/lib/js/head.min.js"></script>
+	<script src="/mastering-js-jquery/revealjs/js/reveal.js"></script>
+	<script>
+		Reveal.initialize({
+		      	embedded : true,
+
+		        
+		        "center": true ,
+		        
+		        "controls": true ,
+		        
+		        "history": true ,
+		        
+		        "progress": true ,
+		        
+		        "transition":"convex",
+		        
+		        
+		        
+		        dependencies: [
+		          { src: '\/mastering-js-jquery\/revealjs\/lib\/js\/classList.js"', condition: function() { return !document.body.classList; } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/markdown\/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/markdown\/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/highlight\/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/zoom-js\/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/notes\/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		        ]
+		      });
+	</script>

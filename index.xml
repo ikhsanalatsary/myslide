@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mastering JavaScript: jQuery on Mastering Javascripit: Jquery</title>
+    <link>https://ikhsanalatsary.github.io/mastering-js-jquery/</link>
+    <description>Recent content in Mastering JavaScript: jQuery on Mastering Javascripit: Jquery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Apr 2017 18:36:24 +0200</lastBuildDate>
+    
+	<atom:link href="https://ikhsanalatsary.github.io/mastering-js-jquery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Me</title>
+      <link>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/me/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/me/</guid>
+      <description> Introduction and The Goal of This Section Pengenalan &amp;amp; Tujuan  Mengenal Apa itu JavaScript Memahami karakteristik dan konsep memahami sintaks  Breakfast  Eat eggs Drink coffee  In the evening Dinner  Eat spaghetti Drink wine  Going to sleep  Get in bed Count sheep  </description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/javascript/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/javascript/</guid>
+      <description>Introduction and The Goal of This Section Pengenalan &amp;amp; Tujuan  Mengenal JavaScript Memahami karakteristik dan konsep Memahami sintaks  Setup  Text Editor menggunakan Atom Browser menggunakan Chrome Developer tools Chrome  Apa itu JavaScript JavaScript JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</description>
+    </item>
+    
+    <item>
+      <title>JQUERY</title>
+      <link>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/jquery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ikhsanalatsary.github.io/mastering-js-jquery/intro-to/jquery/</guid>
+      <description>Apa itu JQuery? Kumpulan `functions` JavaScript (Library), yang memudahkan dan dapat digunakan berulang-ulang. Apa yang bisa dilakukan JQuery?  Akses element pada dokumen HTML Mengubah Document HTML pada Halaman web Menanggapi Tindakan Yang dilakukan oleh pengguna Animasi Bisa berkomunikasi dengan server  Kenapa Harus JQUERY? &#34;Write Less, Do More&#34;  Browser Compatibility  Chrome Safari Firefox Mozila IE  More&amp;hellip;  Dari pemula menjadi pro  Mudah digunakan dan dipahami walaupun pemula, bisa membuat website dinamis level profesional  Serba cepat  5 baris kode jQuery vs 30 baris kode vanilla JavaScript Tidak ada masalah dengan kompatibel browser yang berbeda Banyak Plugin bertebaran (Open Source)   Using JQUERY  Akses element (di jquery disebut Selectors)  dengan cara akses elemen html dengan cara akses elemen dengan ID(Unique) dengan cara akses elemen dengan nama kelas   CSS /* paragraph element*/ p { .</description>
+    </item>
+    
+    <item>
+      <title>header</title>
+      <link>https://ikhsanalatsary.github.io/mastering-js-jquery/_header/</link>
+      <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
+      
+      <guid>https://ikhsanalatsary.github.io/mastering-js-jquery/_header/</guid>
+      <description>Mastering JavaScript: jQuery</description>
+    </item>
+    
+  </channel>
+</rss>

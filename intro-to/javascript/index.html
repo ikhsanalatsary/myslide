@@ -1,0 +1,515 @@
+
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/css/reveal.css">
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/css/theme/league.css" id="theme">
+	<link rel="stylesheet" href="/mastering-js-jquery/revealjs/lib/css/zenburn.css">
+
+	<div class="reveal">
+	<div class="slides">
+	<section data-markdown
+	         data-separator="^---"
+		 data-separator-vertical="^___"
+		 data-separator-notes="^Note:"
+		data-charset="utf8">
+	## Introduction and The Goal of This Section
+
+---
+
+### Pengenalan &amp; Tujuan
+
+- Mengenal JavaScript
+- Memahami karakteristik dan konsep
+- Memahami sintaks
+
+---
+
+## Setup
+
+- Text Editor menggunakan Atom
+- Browser menggunakan Chrome
+- Developer tools Chrome
+
+---
+
+#  Apa itu JavaScript
+
+___
+
+## JavaScript
+
+JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them. (MDN-Mozilla)
+
+___
+
+## Penjelasan
+
+JavaScript adalah cross-platform, bahasa scripting berorientasi objek. Ini adalah bahasa yang kecil dan ringan. Di dalam environment host (misalnya, browser web), JavaScript dapat dihubungkan ke objek dari environment tersebut untuk memberikan kontrol program terhadapnya.
+
+---
+
+# JavaScript Dan Java
+
+___
+
+JavaScript Bukan Java. namun sintaks javascipt mirip java dalam beberapa case tertentu.
+
+---
+
+## First Conceptual Aside
+
+&lt;ul&gt;
+  &lt;li class=&#34;fragment fade-up&#34;&gt;Syntax Parsers&lt;/li&gt;
+  &lt;li class=&#34;fragment fade-up&#34;&gt;Execution Contexts&lt;/li&gt;
+  &lt;li class=&#34;fragment fade-up&#34;&gt;Lexical Environments&lt;/li&gt;
+&lt;/ul&gt;
+
+---
+
+## Syntax Parsers:
+
+### A PROGRAM THAT READS YOUR CODE AND DETERMINES WHAT IT DOES AND IF ITS GRAMMAR IS VALID
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;Your code isn&#39;t magic. Someone else wrote a program to translate it for the computer.&lt;/p&gt;
+
+
+___
+
+### SEBUAH PROGRAM YANG MEMBACA KODE KITA DAN TAHU BAHWA KODE KITA BENAR ATAU SALAH
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;Kode kita bukanlah sihir/sulap. Orang lain yang membuat program tersebut diterjemahkan untuk berkomunikasi ke komputer.&lt;/p&gt;
+
+---
+
+![Syntax Parser](/intro-to/syntaxparser.jpeg)
+
+---
+
+## Lexical Environment:
+
+### WHERE SOMETHING SITS PHYSICALLY IN THE CODE YOU WRITE
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;&#39;Lexical&#39; means &#39;having to do with words or grammar&#39;. A lexical environment exists in programming languages in which where you write something is important.&lt;/p&gt;
+
+---
+
+## Execution Contexts:
+
+### A WRAPPER TO HELP MANAGE THE CODE THAT IS RUNNING
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;There are a lots of lexical environments. Which one is currently running is managed via execution contexts. it can contain things beyond what you&#39;ve written in your code.&lt;/p&gt;
+
+---
+
+# It&#39;s Important!
+
+---
+
+## Second Conceptual Aside:
+
+### Name / Value Pairs And Objects
+
+___
+
+## Name / Value Pair:
+
+### A NAME WHICH MAPS TO A UNIQUE VALUE
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;The name may be defined more than once, but only can have one value in any given context.&lt;br /&gt;
+That value may be more name/value pairs.&lt;/p&gt;
+
+___
+
+## For Example
+
+`Alamat = &#39;Jl. Margonda no. 7&#39;`
+
+---
+
+## Object:
+
+### A COLLECTION OF NAME VALUE PAIRS
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;The simplest definition when talking about JavaScript.&lt;/p&gt;
+
+___
+
+## Ilustration
+
+![Syntax Parser](/intro-to/name-value-pairs.jpeg)
+
+___
+
+## Example Object
+
+```javascript
+{
+  Alamat:
+    {
+      Jalan: &#39;Margonda&#39;,
+      Nomor: 7,
+      Apartemen:
+      {
+        Lantai: 3,
+        Nomor: 007
+      }
+    }
+}
+
+```
+
+---
+
+## The Global Environment And The Global Object
+
+___
+
+### Execution Context (Global)
+
+* Global Object
+* `this`
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  &lt;img src=&#34;/intro-to/execution-context.jpeg&#34; alt=&#34; execution context&#34;/&gt;
+&lt;/p&gt;
+
+---
+
+# Let&#39;s start code!
+
+---
+
+# So...
+
+---
+
+## Global Object adalah `Window`
+
+Global Object(`window`) sama dengan `this`
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  &lt;img src=&#34;/intro-to/execution-context-equal.jpeg&#34; alt=&#34;execution context equal&#34; /&gt;
+&lt;/p&gt;
+
+---
+
+## Global
+
+- **Not inside a `function`**
+
+---
+
+![execution context final](/intro-to/execution-context-final.jpeg)
+
+---
+
+## Creation and Hoisting
+
+___
+
+![Creation and Hoisting](/intro-to/creation-hoisting.jpeg)
+
+---
+
+## Third Conceptual Aside:
+## JavaScript and `undefined`
+
+___
+
+![JavaScript and undefined](/intro-to/javascript-undefined.jpeg)
+
+---
+
+## The Execution Context - Code Execution
+
+___
+
+![JavaScript and undefined](/intro-to/code-execution.jpeg)
+
+---
+
+## Fourth Conceptual Aside
+### Single Threaded
+### Syncronous Execution
+
+___
+
+## Single Threaded:
+### One Command at a time
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Under the hood of the browser, maybe not
+&lt;/p&gt;
+
+___
+
+## Syncronous:
+### One at a time
+
+---
+
+## Function Invocation
+## And
+## The Execution Context
+
+---
+
+## Invocation:
+### Running A Function
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  In JavaScript, by using parenthesis `()`
+&lt;/p&gt;
+
+---
+
+## Execution Stack
+
+![Invocation1](/intro-to/invocation1.gif)
+
+___
+
+## Execution Stack
+
+&lt;img src=&#34;/intro-to/execution-stack.gif&#34; width=800 alt=&#34;Execution Stack&#34; /&gt;
+
+___
+
+## Execution Stack
+
+&lt;img src=&#34;/intro-to/execution-stack-1.gif&#34; width=800 alt=&#34;Execution Stack&#34; /&gt;
+
+---
+
+## Function, Context, and Variable Environment
+
+---
+
+## Variable Environment:
+### Where the variable live
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  And how they relate to each other in memory
+&lt;/p&gt;
+
+
+---
+
+## Scope Chain
+
+&lt;img src=&#34;/intro-to/scope-chain.gif&#34; width=800 alt=&#34;Execution Stack&#34; /&gt;
+
+---
+
+## Fifth Conceptul Aside
+### Types And JavaScript
+
+___
+
+## Dynamic Typing:
+### You don&#39;t tell the engine what type of data a variable holds, it figures it out while your code is running
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Variables can hold different types of values because it&#39;s all figured out during execution
+&lt;/p&gt;
+
+___
+
+## Static Typing
+
+```java
+  bool isNew = &#39;hello&#39;; // an error
+```
+
+## Dynamic Typing
+
+```javascript
+  var isNew = true; // no errors
+  isNew = &#39;yup!&#39;;
+  isNew = 1;
+```
+
+---
+
+## Primitive Type:
+### A Type of data that represents a single value
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  That is, not an object
+&lt;/p&gt;
+
+---
+
+## Undefined
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  `undefined` represents lack of existence
+  (you shouldn&#39;t set a variable to this)
+&lt;/p&gt;
+
+---
+
+## Null
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  `null` represents lack of existence
+  (you can set a variable to this)
+&lt;/p&gt;
+
+---
+
+## Boolean
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  `boolean` is true or false
+&lt;/p&gt;
+
+---
+
+## Number
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  *Floating point* number (there&#39;s always some decimals). Unlike other programming languages, there&#39;s only one `number` type. and it can make math weird.
+&lt;/p&gt;
+
+---
+
+## String
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  a sequence of characters
+  (both &#39;&#39; and &#34;&#34; can be used)
+&lt;/p&gt;
+
+---
+
+## Symbol
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Unique type. Used in ES6 (the next version of JavaScript)
+&lt;/p&gt;
+
+---
+
+## Conceptual Aside:
+### Operators
+
+---
+
+## Operator:
+### A Special Function That is Syntactically (Written) Differently
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Generally, Operators take two parameters and return one result
+&lt;/p&gt;
+
+---
+
+## Conceptual Aside:
+### Coercion
+
+---
+
+## Coercion
+### Converting a value from one type to another
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  This Happens quite often in JavaScript because it&#39;s dynamically typed.
+&lt;/p&gt;
+
+---
+
+## Framework Aside
+
+let&#39;s go to editor
+
+---
+
+## Default Value
+
+let&#39;s code
+
+---
+
+## Operator Precedence And Associativity
+
+---
+
+## Operator Precedence:
+### Which Operator function gets called first
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Functions are called in order of precedence (Higher precedence wins)
+&lt;/p&gt;
+
+---
+
+## Associativity:
+### What Order Operator Functions Get Called In:
+### Left-To-Right or Right-to-left
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  When functions have the same precedence
+&lt;/p&gt;
+
+---
+
+## Comparison Operators
+
+let&#39;s code
+
+---
+
+## Objects And Functions
+
+---
+
+## Object And The Dots
+
+___
+
+![Objects and the dots](/intro-to/objects-dots.jpeg)
+
+___
+
+![Objects and the dots in memory](/intro-to/objects-dots-memory.jpeg)
+
+---
+
+## Conceptual Aside:
+## Array
+
+&lt;p class=&#34;fragment fade-up&#34;&gt;
+  Collections of anything
+&lt;/p&gt;
+
+	</section>
+	</div>
+	</div>
+	<script src="/mastering-js-jquery/revealjs/lib/js/head.min.js"></script>
+	<script src="/mastering-js-jquery/revealjs/js/reveal.js"></script>
+	<script>
+		Reveal.initialize({
+		      	embedded : true,
+
+		        
+		        "center": true ,
+		        
+		        "controls": true ,
+		        
+		        "history": true ,
+		        
+		        "progress": true ,
+		        
+		        "transition":"convex",
+		        
+		        
+		        
+		        dependencies: [
+		          { src: '\/mastering-js-jquery\/revealjs\/lib\/js\/classList.js"', condition: function() { return !document.body.classList; } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/markdown\/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/markdown\/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/highlight\/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/zoom-js\/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		          { src: '\/mastering-js-jquery\/revealjs\/plugin\/notes\/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		        ]
+		      });
+	</script>
