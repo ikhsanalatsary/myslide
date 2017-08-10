@@ -269,6 +269,17 @@ ___
 
 ![Invocation1](/intro-to/invocation1.gif)
 
+___
+
+## Execution Stack
+
+<img src="/intro-to/execution-stack.gif" width=800 alt="Execution Stack" />
+
+___
+
+## Execution Stack
+
+<img src="/intro-to/execution-stack-1.gif" width=800 alt="Execution Stack" />
 
 ---
 
@@ -276,7 +287,19 @@ ___
 
 ---
 
+## Variable Environment:
+### Where the variable live
+
+<p class="fragment fade-up">
+  And how they relate to each other in memory
+</p>
+
+
+---
+
 ## Scope Chain
+
+<img src="/intro-to/scope-chain.gif" width=800 alt="Execution Stack" />
 
 ---
 
@@ -454,3 +477,10 @@ ___
 ![Objects and the dots in memory](/intro-to/objects-dots-memory.jpeg)
 
 ---
+
+## Conceptual Aside:
+## Array
+
+<p class="fragment fade-up">
+  Collections of anything
+</p>
