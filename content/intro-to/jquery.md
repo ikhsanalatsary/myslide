@@ -128,6 +128,34 @@ $('.nama-kelas');
 
 ---
 
+___
+
+## HTML Document
+
+```html
+
+<html>
+<head>
+  <title>the title</title>
+</head>
+<body>
+  <div>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+    <p>This is yet another paragraph.</p>
+  </div>
+</body>
+</html>
+
+```
+___
+
+## DOM tree
+
+![Dom tree](/myslide/intro-to/dom-tree.jpg)
+
+___
+
 ### modelling HTML, SVG, or XML documents as objects is not part of the JavaScript language
 
 ---
@@ -344,3 +372,9 @@ same as
 ```javascript
   $('#parent > li');
 ```
+
+---
+
+## Jquery Cheat Sheet
+
+[Jquery Cheat Sheet](https://oscarotero.com/jquery/)
