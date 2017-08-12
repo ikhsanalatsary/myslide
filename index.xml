@@ -17,7 +17,8 @@
       <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>https://ikhsanalatsary.github.io/myslide/intro-to/me/</guid>
-      <description> Introduction and The Goal of This Section Pengenalan &amp;amp; Tujuan  Mengenal Apa itu JavaScript Memahami karakteristik dan konsep memahami sintaks  Breakfast  Eat eggs Drink coffee  In the evening Dinner  Eat spaghetti Drink wine  Going to sleep  Get in bed Count sheep  </description>
+      <description> My Work Library  Akarata Multer Sharp react-boilerplate-next  WebApp Jkrepair.com Xcidic Xcidic Blog Competition Juara 1 Problem set Nodejs Codepolitan Personal Website ikhsannetwork.com
+We Are Hiring&amp;hellip; </description>
     </item>
     
     <item>
@@ -26,7 +27,10 @@
       <pubDate>Mon, 24 Apr 2017 18:36:24 +0200</pubDate>
       
       <guid>https://ikhsanalatsary.github.io/myslide/intro-to/javascript/</guid>
-      <description>Introduction and The Goal of This Section Pengenalan &amp;amp; Tujuan  Mengenal JavaScript Memahami karakteristik dan konsep Memahami sintaks  Setup  Text Editor menggunakan Brackets Browser menggunakan Chrome Developer tools Chrome  Apa itu JavaScript JavaScript JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</description>
+      <description>Introduction and The Goal of This Section Pengenalan &amp;amp; Tujuan  Mengenal JavaScript Memahami karakteristik dan konsep Memahami sintaks  Setup  Text Editor menggunakan Brackets Browser menggunakan Chrome Developer tools Chrome  Project Download Learn JavaScript
+Apa itu JavaScript JavaScript JavaScript adalah cross-platform, bahasa scripting berorientasi objek. (MDN-Mozilla)
+JavaScript Dan Java JavaScript Bukan Java. namun sintaks javascipt mirip java dalam beberapa case tertentu.
+Conceptual Aside  Syntax Parsers Execution Contexts Lexical Environments  Syntax Parsers: A PROGRAM THAT READS YOUR CODE AND DETERMINES WHAT IT DOES AND IF ITS GRAMMAR IS VALID Your code isn&#39;t magic.</description>
     </item>
     
     <item>
@@ -35,7 +39,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ikhsanalatsary.github.io/myslide/intro-to/jquery/</guid>
-      <description>Apa itu JQuery? Kumpulan `functions` JavaScript (Library), yang memudahkan dan dapat digunakan berulang-ulang. Apa yang bisa dilakukan JQuery?  Akses element pada dokumen HTML Mengubah Document HTML pada Halaman web Menanggapi Tindakan Yang dilakukan oleh pengguna Animasi Bisa berkomunikasi dengan server  Kenapa Harus JQUERY? &#34;Write Less, Do More&#34;  Browser Compatibility  Chrome Safari Firefox Mozila IE  More&amp;hellip;  Dari pemula menjadi pro  Mudah digunakan dan dipahami walaupun pemula, bisa membuat website dinamis level profesional  Serba cepat  5 baris kode jQuery vs 30 baris kode vanilla JavaScript Tidak ada masalah dengan kompatibel browser yang berbeda Banyak Plugin bertebaran (Open Source)   Using JQUERY  Akses element (di jquery disebut Selectors)  dengan cara akses elemen html dengan cara akses elemen dengan ID(Unique) dengan cara akses elemen dengan nama kelas   CSS /* paragraph element*/ p { .</description>
+      <description>Apa itu JQuery? Kumpulan `functions` JavaScript (Library), yang memudahkan dan dapat digunakan berulang-ulang. Apa yang bisa dilakukan JQuery?  Akses element pada dokumen HTML Mengubah Document HTML pada Halaman web Menanggapi Tindakan Yang dilakukan oleh pengguna Animasi Bisa berkomunikasi dengan server  Kenapa Harus JQUERY? &#34;Write Less, Do More&#34;  Browser Compatibility  Chrome Safari Firefox Mozila IE  More&amp;hellip;  Dari pemula menjadi pro  Mudah digunakan dan dipahami walaupun pemula, bisa membuat website dinamis level profesional  Serba cepat  5 baris kode jQuery vs 30 baris kode vanilla JavaScript Tidak ada masalah dengan kompatibel browser yang berbeda Banyak Plugin bertebaran (Open Source)   Using JQUERY  Akses element (di jquery disebut Selectors)  dengan cara akses elemen html dengan cara akses elemen dengan ID(Unique) dengan cara akses elemen dengan nama kelas   Project Download Learn JQuery</description>
     </item>
     
     <item>
