@@ -28,7 +28,7 @@ center= true
 
 ## Setup
 
-- Text Editor menggunakan Atom
+- Text Editor menggunakan Brackets
 - Browser menggunakan Chrome
 - Developer tools Chrome
 

@@ -6,3 +6,4 @@ draft: false
 
 - [{{%icon expand%}}Me]({{%relref "me.md"%}})
 - [{{%icon expand%}}JavaScript]({{%relref "javascript.md"%}})
+- [{{%icon expand%}}Jquery]({{%relref "jquery.md"%}})

@@ -1,6 +1,6 @@
 +++
 
-title = "JQUERY"
+title = "JQuery"
 weight = 3
 type="slide"
 
@@ -378,3 +378,20 @@ same as
 ## Jquery Cheat Sheet
 
 [Jquery Cheat Sheet](https://oscarotero.com/jquery/)
+
+---
+
+## Ajax
+
+### Asyncronous JavaScript And XML
+---
+
+## Tradisional communication
+
+![Traditional Communication](/myslide/intro-to/tradistional-communication.jpeg)
+
+---
+
+## Ajax communication
+
+![Ajax Communication](/myslide/intro-to/ajax-communication.jpeg)
