@@ -58,7 +58,7 @@ JavaScript Bukan Java. namun sintaks javascipt mirip java dalam beberapa case te
 
 ---
 
-## First Conceptual Aside
+## Conceptual Aside
 
 <ul>
   <li class="fragment fade-up">Syntax Parsers</li>
@@ -83,7 +83,8 @@ ___
 
 ---
 
-![Syntax Parser](/intro-to/syntaxparser.jpeg)
+<!-- ![Syntax Parser](/myslide/intro-to/syntaxparser.jpeg) -->
+<img src="/myslide/intro-to/syntaxparser.jpeg" width=800 alt="Syntax Parser" />
 
 ---
 
@@ -107,7 +108,7 @@ ___
 
 ---
 
-## Second Conceptual Aside:
+## Conceptual Aside:
 
 ### Name / Value Pairs And Objects
 
@@ -138,7 +139,7 @@ ___
 
 ## Ilustration
 
-![Syntax Parser](/intro-to/name-value-pairs.jpeg)
+![Syntax Parser](/myslide/intro-to/name-value-pairs.jpeg)
 
 ___
 
@@ -172,7 +173,7 @@ ___
 * `this`
 
 <p class="fragment fade-up">
-  <img src="/intro-to/execution-context.jpeg" alt=" execution context"/>
+  <img src="/myslide/intro-to/execution-context.jpeg" alt=" execution context"/>
 </p>
 
 ---
@@ -190,7 +191,7 @@ ___
 Global Object(`window`) sama dengan `this`
 
 <p class="fragment fade-up">
-  <img src="/intro-to/execution-context-equal.jpeg" alt="execution context equal" />
+  <img src="/myslide/intro-to/execution-context-equal.jpeg" alt="execution context equal" />
 </p>
 
 ---
@@ -201,7 +202,7 @@ Global Object(`window`) sama dengan `this`
 
 ---
 
-![execution context final](/intro-to/execution-context-final.jpeg)
+![execution context final](/myslide/intro-to/execution-context-final.jpeg)
 
 ---
 
@@ -209,16 +210,16 @@ Global Object(`window`) sama dengan `this`
 
 ___
 
-![Creation and Hoisting](/intro-to/creation-hoisting.jpeg)
+![Creation and Hoisting](/myslide/intro-to/creation-hoisting.jpeg)
 
 ---
 
-## Third Conceptual Aside:
+## Conceptual Aside:
 ## JavaScript and `undefined`
 
 ___
 
-![JavaScript and undefined](/intro-to/javascript-undefined.jpeg)
+![JavaScript and undefined](/myslide/intro-to/javascript-undefined.jpeg)
 
 ---
 
@@ -226,11 +227,11 @@ ___
 
 ___
 
-![JavaScript and undefined](/intro-to/code-execution.jpeg)
+![JavaScript and undefined](/myslide/intro-to/code-execution.jpeg)
 
 ---
 
-## Fourth Conceptual Aside
+## Conceptual Aside
 ### Single Threaded
 ### Syncronous Execution
 
@@ -267,19 +268,19 @@ ___
 
 ## Execution Stack
 
-![Invocation1](/intro-to/invocation1.gif)
+![Invocation1](/myslide/intro-to/invocation1.gif)
 
 ___
 
 ## Execution Stack
 
-<img src="/intro-to/execution-stack.gif" width=800 alt="Execution Stack" />
+<img src="/myslide/intro-to/execution-stack.gif" width=800 alt="Execution Stack" />
 
 ___
 
 ## Execution Stack
 
-<img src="/intro-to/execution-stack-1.gif" width=800 alt="Execution Stack" />
+<img src="/myslide/intro-to/execution-stack-1.gif" width=800 alt="Execution Stack" />
 
 ---
 
@@ -299,11 +300,11 @@ ___
 
 ## Scope Chain
 
-<img src="/intro-to/scope-chain.gif" width=800 alt="Execution Stack" />
+<img src="/myslide/intro-to/scope-chain.gif" width=800 alt="Execution Stack" />
 
 ---
 
-## Fifth Conceptul Aside
+## Conceptul Aside
 ### Types And JavaScript
 
 ___
@@ -421,12 +422,6 @@ ___
 
 ---
 
-## Framework Aside
-
-let's go to editor
-
----
-
 ## Default Value
 
 let's code
@@ -470,11 +465,38 @@ let's code
 
 ___
 
-![Objects and the dots](/intro-to/objects-dots.jpeg)
+![Objects and the dots](/myslide/intro-to/objects-dots.jpeg)
 
 ___
 
-![Objects and the dots in memory](/intro-to/objects-dots-memory.jpeg)
+![Objects and the dots in memory](/myslide/intro-to/objects-dots-memory.jpeg)
+
+---
+
+## Object Literals
+
+---
+
+## Faking NameSpace
+
+---
+
+## JSON & Object literals
+
+---
+
+## function are Objects
+
+---
+
+## function statements and function expression
+
+---
+
+## Object, function and `this`
+---
+
+## by value and by reference
 
 ---
 
@@ -484,3 +506,27 @@ ___
 <p class="fragment fade-up">
   Collections of anything
 </p>
+
+## Conceptual Aside:
+## Building Objects
+
+___
+
+## Function Constructors, new, and the history of JavaScript
+
+let's code after cerita dulu
+
+___
+
+## Function Constructors:
+### A normal Function that is used to construct objects.
+
+<p class="fragment fade-up">
+  The `this` variable points a new empty object, and that object is returned from the Function automatically.
+</p>
+
+---
+
+## Conceptual Aside:
+## Event:
+### Something that has happened in our app that we can respond to
