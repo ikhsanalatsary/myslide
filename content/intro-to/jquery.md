@@ -71,6 +71,15 @@ center= true
 
 ___
 
+---
+
+## Project Download
+
+[Learn JQuery](https://goo.gl/xV763f)
+
+---
+
+
 ### CSS
 
 ```css
@@ -123,10 +132,8 @@ $('.nama-kelas');
 ### The DOM model represents a document with a logical tree.
 
 <p class="fragment fade-up">
-  is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+  is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content.
 </p>
-
----
 
 ___
 
@@ -395,3 +402,8 @@ same as
 ## Ajax communication
 
 ![Ajax Communication](/myslide/intro-to/ajax-communication.jpeg)
+
+
+---
+
+## Promises

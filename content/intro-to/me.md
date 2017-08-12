@@ -14,37 +14,57 @@ history= true
 center= true
 +++
 
-## Introduction and The Goal of This Section
+![abdul fattah ikhsan](/myslide/ikhsan-caption.jpg)
 
 ---
 
-### Pengenalan & Tujuan
+## My Work
 
-- Mengenal Apa itu JavaScript
-- Memahami karakteristik dan konsep
-- memahami sintaks
+___
+
+### Library
+
+* [Akarata](https://www.npmjs.com/package/akarata)
+* [Multer Sharp](https://www.npmjs.com/package/multer-sharp)
+* [react-boilerplate-next](https://github.com/ikhsanalatsary/react-boilerplate-next)
+
+___
+
+### WebApp
+
+### [Jkrepair.com](www.jkrepair.com)
+
+![JKRepair](/myslide/HomePage-JK-Repair.png)
+
+___
+
+
+### [Xcidic](https://www.xcidic.com)
+
+![Xcidic](/myslide/Xcidic-web-An-Innovative-Technology-Lab.png)
+
+___
+
+### [Xcidic Blog](https://blog.xcidic.com)
+
+![Xcidic Blog](/myslide/Xcidic-Blog-An-Innovative-Technology-Lab.png)
 
 ---
 
-## Breakfast
+## Competition
 
-- Eat eggs
-- Drink coffee
+### Juara 1 Problem set Nodejs Codepolitan
 
----
+___
 
-# In the evening
-
----
-
-## Dinner
-
-- Eat spaghetti
-- Drink wine
+![Nodejs](/myslide/Kontak-plus.png)
 
 ---
 
-## Going to sleep
+## Personal Website
 
-- Get in bed
-- Count sheep
+[ikhsannetwork.com](https://ikhsanalatsary.github.io/)
+
+---
+
+# We Are Hiring...
